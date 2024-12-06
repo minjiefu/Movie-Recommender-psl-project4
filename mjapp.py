@@ -69,8 +69,9 @@ def get_movie_card(movie, with_rating=False):
 
 movies = get_displayed_movies()
 
-EXPLAINER = """This example shows how to use callbacks to render graphs inside
-if the data generating process is expensive, switching tabs is still quick."""
+EXPLAINER = """The list below features the top 100 most popular movies selected from 3706 films based on reviews and ratings. 
+Rate the movies you've watched and click the button for personalized recommendations. 
+The more movies you rate, the more accurate the recommendations."""
 
 app.layout = dbc.Container([
     html.Div(
